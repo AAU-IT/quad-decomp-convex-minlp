@@ -13,15 +13,15 @@ Each problem type has its own folder. Inside each folder you will find:
   Contains the '.gms' files used in the tests. 
 
 ### Repository Structure
-- [CCPOP](https://github.com/JoaBlo/Decomposition--Based-Reformulation-of-Nonseparable-Quadratic-Expressions-in-Convex-MINLP--Instances/tree/main/Test%20Instances/Generated%20Instances/CCPOP) - Cardinality-Constrained Portfolio Optimization Problem
-- [CCPOPwTCaD](https://github.com/JoaBlo/Decomposition--Based-Reformulation-of-Nonseparable-Quadratic-Expressions-in-Convex-MINLP--Instances/tree/main/Test%20Instances/Generated%20Instances/CCPOPwTCaD) - Cardinality-Constrained Portfolio Optimization with Transaction Costs and Diversification
-- [CCPOPwTCaRL](https://github.com/JoaBlo/Decomposition--Based-Reformulation-of-Nonseparable-Quadratic-Expressions-in-Convex-MINLP--Instances/tree/main/Test%20Instances/Generated%20Instances/CCPOPwTCaRL) - Cardinality-Constrained Portfolio Optimization with Transaction Costs and Risk Limit
-- [RPOPwCaTC](https://github.com/JoaBlo/Decomposition--Based-Reformulation-of-Nonseparable-Quadratic-Expressions-in-Convex-MINLP--Instances/tree/main/Test%20Instances/Generated%20Instances/RPOPwCaTC) - Robust Portfolio Optimization with Cardinality and Transaction Costs
-- [CCPOPwTCRTEaD](https://github.com/JoaBlo/Decomposition--Based-Reformulation-of-Nonseparable-Quadratic-Expressions-in-Convex-MINLP--Instances/tree/main/Test%20Instances/Generated%20Instances/CCPOPwTCRTEaD) - Cardinality-Constrained Portfolio Optimization with Risk, Tracking Error, Diversification, and Transaction Costs
-- [SaCCDPOP](https://github.com/JoaBlo/Decomposition--Based-Reformulation-of-Nonseparable-Quadratic-Expressions-in-Convex-MINLP--Instances/tree/main/Test%20Instances/Generated%20Instances/SaCCDPOP) - Sector-Constrained Diversified Portfolio Optimization Problem
-- [MPCCPOP](https://github.com/JoaBlo/Decomposition--Based-Reformulation-of-Nonseparable-Quadratic-Expressions-in-Convex-MINLP--Instances/tree/main/Test%20Instances/Generated%20Instances/MPCCPOP) - Multi-Period Portfolio Optimization Problem
-- [MPCCPOP_crypto](https://github.com/JoaBlo/Decomposition--Based-Reformulation-of-Nonseparable-Quadratic-Expressions-in-Convex-MINLP--Instances/tree/main/Test%20Instances/Generated%20Instances/MPCCPOP_crypto) - Multi-Period Crypto Portfolio Optimization Problem
-- [MINLPLib Instances](https://github.com/JoaBlo/Decomposition--Based-Reformulation-of-Nonseparable-Quadratic-Expressions-in-Convex-MINLP--Instances/tree/main/Test%20Instances/MINLPLib%20Instances) - Problems from MINLPLib
+- [CCPOP](https://github.com/AAU-IT/quad-decomp-convex-minlp/tree/main/Test%20Instances/Generated%20Instances/CCPOP) - Cardinality-Constrained Portfolio Optimization Problem
+- [CCPOPwTCaD](https://github.com/AAU-IT/quad-decomp-convex-minlp/tree/main/Test%20Instances/Generated%20Instances/CCPOPwTCaD) - Cardinality-Constrained Portfolio Optimization with Transaction Costs and Diversification
+- [CCPOPwTCaRL](https://github.com/AAU-IT/quad-decomp-convex-minlp/tree/main/Test%20Instances/Generated%20Instances/CCPOPwTCaRL) - Cardinality-Constrained Portfolio Optimization with Transaction Costs and Risk Limit
+- [RPOPwCaTC](https://github.com/AAU-IT/quad-decomp-convex-minlp/tree/main/Test%20Instances/Generated%20Instances/RPOPwCaTC) - Robust Portfolio Optimization with Cardinality and Transaction Costs
+- [CCPOPwTCRTEaD](https://github.com/AAU-IT/quad-decomp-convex-minlp/tree/main/Test%20Instances/Generated%20Instances/CCPOPwTCRTEaD) - Cardinality-Constrained Portfolio Optimization with Risk, Tracking Error, Diversification, and Transaction Costs
+- [SaCCDPOP](https://github.com/AAU-IT/quad-decomp-convex-minlp/tree/main/Test%20Instances/Generated%20Instances/SaCCDPOP) - Sector-Constrained Diversified Portfolio Optimization Problem
+- [MPCCPOP](https://github.com/AAU-IT/quad-decomp-convex-minlp/tree/main/Test%20Instances/Generated%20Instances/MPCCPOP) - Multi-Period Portfolio Optimization Problem
+- [MPCCPOP_crypto](https://github.com/AAU-IT/quad-decomp-convex-minlp/tree/main/Test%20Instances/Generated%20Instances/MPCCPOP_crypto) - Multi-Period Crypto Portfolio Optimization Problem
+- [MINLPLib Instances](https://github.com/AAU-IT/quad-decomp-convex-minlp/tree/main/Test%20Instances/MINLPLib%20Instances) - Problems from MINLPLib
 - [Paver]() - Results 
 
 ### Instance Overview
