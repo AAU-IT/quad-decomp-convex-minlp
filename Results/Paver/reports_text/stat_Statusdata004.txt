@@ -1,0 +1,4 @@
+           SHOTc  SHOTh2711  gurobi  virt. best  virt. worst
+batchdes       -          -     8.0         8.0            -
+enpro56pb      -        7.0       -         7.0            -
+ravempb        -        7.0       -         7.0            -

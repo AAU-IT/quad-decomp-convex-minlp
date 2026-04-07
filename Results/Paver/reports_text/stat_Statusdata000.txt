@@ -1,0 +1,14 @@
+                         SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  baron  gurobi  scip  virt. best  virt. worst
+CCPOPwTCaD5_100                -        -        -        -        -        -    1.0     1.0     -         1.0            -
+MPCCPOP12_20                   -        -        -        -        -        -    1.0     1.0     -         1.0            -
+MPCCPOP12_30                   -        -        -        -        -        -    1.0     1.0     -         1.0            -
+MPCCPOP_crypto8_6d_30m         -        -        -      1.0        -        -      -       -     -         1.0            -
+RPOPwCaTC5_100               1.0        -        -        -        -        -      -       -     -         1.0            -
+RPOPwCaTC5_20                1.0        -        -        -        -        -      -       -     -         1.0            -
+RPOPwCaTC5_319               1.0        -        -        -        -        -      -       -     -         1.0            -
+ball_mk4_10                    -        -        -        -        -      1.0      -       -     -         1.0            -
+du-opt5                        -      1.0      1.0        -        -        -      -       -     -         1.0            -
+du-opt                         -      1.0      1.0        -        -        -      -       -     -         1.0            -
+fac3                           -        -        -      1.0        -        -      -       -     -         1.0            -
+pedigree_ex1058                -        -        -        -        -      1.0      -       -     -         1.0            -
+watercontamination0303r        -        -        -        -        -        -    1.0       -     -         1.0            -

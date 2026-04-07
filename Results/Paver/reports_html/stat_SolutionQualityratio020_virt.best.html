@@ -1,0 +1,545 @@
+<HTML><HEAD> 
+        <STYLE>
+        table.dataframe { text-align: right; font-size: 12px; border: 1px; border-collapse: collapse}
+        </STYLE>
+         </HEAD><BODY>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>SHOTcq0</th>
+      <th>SHOTcq1</th>
+      <th>SHOTcq2</th>
+      <th>SHOThq0</th>
+      <th>SHOThq1</th>
+      <th>SHOThq2</th>
+      <th>baron</th>
+      <th>gurobi</th>
+      <th>scip</th>
+      <th>virt. worst</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>CCPOP5_100</th>
+      <td><span style="{color: blue}">0.86</span></td>
+      <td><span style="{color: blue}">0.59</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.82</span></td>
+      <td><span style="{color: blue}">0.99</span></td>
+      <td><span style="{color: blue}">0.96</span></td>
+      <td><span style="{color: blue}">0.96</span></td>
+      <td><span style="{color: blue}">0.96</span></td>
+      <td><span style="{color: blue}">0.96</span></td>
+      <td><span style="{color: blue}">0.59</span></td>
+    </tr>
+    <tr>
+      <th>CCPOP5_186</th>
+      <td><span style="{color: blue}">0.65</span></td>
+      <td><span style="{color: blue}">0.70</span></td>
+      <td><span style="{color: blue}">0.95</span></td>
+      <td><span style="{color: blue}">0.57</span></td>
+      <td><span style="{color: blue}">0.80</span></td>
+      <td><span style="{color: blue}">0.77</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.71</span></td>
+      <td><span style="{color: blue}">0.57</span></td>
+    </tr>
+    <tr>
+      <th>CCPOP5_20</th>
+      <td><span style="{color: blue}">0.95</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.97</span></td>
+      <td><span style="{color: blue}">0.99</span></td>
+      <td><span style="{color: blue}">0.97</span></td>
+      <td><span style="{color: blue}">0.98</span></td>
+      <td><span style="{color: blue}">0.95</span></td>
+      <td><span style="{color: blue}">0.95</span></td>
+      <td><span style="{color: blue}">0.95</span></td>
+      <td><span style="{color: blue}">0.95</span></td>
+    </tr>
+    <tr>
+      <th>CCPOP5_219</th>
+      <td><span style="{color: blue}">0.66</span></td>
+      <td><span style="{color: blue}">0.59</span></td>
+      <td><span style="{color: blue}">0.72</span></td>
+      <td><span style="{color: blue}">0.59</span></td>
+      <td><span style="{color: blue}">0.80</span></td>
+      <td><span style="{color: blue}">0.79</span></td>
+      <td><span style="{color: blue}">0.99</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.71</span></td>
+      <td><span style="{color: blue}">0.59</span></td>
+    </tr>
+    <tr>
+      <th>CCPOP5_300</th>
+      <td><span style="{color: blue}">0.71</span></td>
+      <td><span style="{color: blue}">0.62</span></td>
+      <td><span style="{color: blue}">0.91</span></td>
+      <td><span style="{color: blue}">0.69</span></td>
+      <td><span style="{color: blue}">0.88</span></td>
+      <td><span style="{color: blue}">0.92</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.62</span></td>
+    </tr>
+    <tr>
+      <th>CCPOP5_50</th>
+      <td><span style="{color: blue}">0.93</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.86</span></td>
+      <td><span style="{color: blue}">0.97</span></td>
+      <td><span style="{color: blue}">0.96</span></td>
+      <td><span style="{color: blue}">0.94</span></td>
+      <td><span style="{color: blue}">0.94</span></td>
+      <td><span style="{color: blue}">0.94</span></td>
+      <td><span style="{color: blue}">0.86</span></td>
+    </tr>
+    <tr>
+      <th>CCPOPwTCRTEaD5_20</th>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+    </tr>
+    <tr>
+      <th>CCPOPwTCRTEaD5_50</th>
+      <td><span style="{color: blue}">1.24</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.51</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.51</span></td>
+    </tr>
+    <tr>
+      <th>CCPOPwTCaD5_20</th>
+      <td><span style="{color: blue}">0.08</span></td>
+      <td><span style="{color: blue}">0.97</span></td>
+      <td><span style="{color: blue}">0.97</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.59</span></td>
+      <td><span style="{color: blue}">0.97</span></td>
+      <td><span style="{color: blue}">0.97</span></td>
+      <td><span style="{color: blue}">0.97</span></td>
+      <td><span style="{color: blue}">0.97</span></td>
+      <td><span style="{color: blue}">0.08</span></td>
+    </tr>
+    <tr>
+      <th>CCPOPwTCaD5_300</th>
+      <td><span style="{color: blue}">-27.24</span></td>
+      <td><span style="{color: blue}">-0.57</span></td>
+      <td><span style="{color: blue}">0.14</span></td>
+      <td><span style="{color: blue}">-20.97</span></td>
+      <td><span style="{color: blue}">0.01</span></td>
+      <td><span style="{color: blue}">-0.38</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">-27.24</span></td>
+    </tr>
+    <tr>
+      <th>CCPOPwTCaD5_50</th>
+      <td><span style="{color: blue}">-6.38</span></td>
+      <td><span style="{color: blue}">0.53</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">-5.96</span></td>
+      <td><span style="{color: blue}">0.24</span></td>
+      <td><span style="{color: blue}">-0.39</span></td>
+      <td><span style="{color: blue}">0.80</span></td>
+      <td><span style="{color: blue}">0.81</span></td>
+      <td><span style="{color: blue}">0.81</span></td>
+      <td><span style="{color: blue}">-6.38</span></td>
+    </tr>
+    <tr>
+      <th>CCPOPwTCaRL5_165</th>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+    </tr>
+    <tr>
+      <th>CCPOPwTCaRL5_308</th>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+    </tr>
+    <tr>
+      <th>CCPOPwTCaRL5_50</th>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+    </tr>
+    <tr>
+      <th>CCPOPwTCaRL5_538</th>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+    </tr>
+    <tr>
+      <th>MPCCPOP12_10</th>
+      <td><span style="{color: blue}">0.74</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.60</span></td>
+      <td><span style="{color: blue}">0.99</span></td>
+      <td><span style="{color: blue}">0.99</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.60</span></td>
+    </tr>
+    <tr>
+      <th>MPCCPOP12_50</th>
+      <td><span style="{color: blue}">-0.51</span></td>
+      <td><span style="{color: blue}">0.58</span></td>
+      <td><span style="{color: blue}">0.84</span></td>
+      <td><span style="{color: blue}">-0.94</span></td>
+      <td><span style="{color: blue}">0.36</span></td>
+      <td><span style="{color: blue}">0.50</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">-0.94</span></td>
+    </tr>
+    <tr>
+      <th>MPCCPOP_crypto8_1mo_5d</th>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+    </tr>
+    <tr>
+      <th>MPCCPOP_crypto8_30d_90m</th>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.03</span></td>
+      <td><span style="{color: blue}">1.03</span></td>
+    </tr>
+    <tr>
+      <th>RPOPwCaTC5_50</th>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.03</span></td>
+      <td><span style="{color: blue}">1.03</span></td>
+    </tr>
+    <tr>
+      <th>SaCCDPOP5_3_115</th>
+      <td><span style="{color: blue}">0.96</span></td>
+      <td><span style="{color: blue}">0.96</span></td>
+      <td><span style="{color: blue}">0.94</span></td>
+      <td><span style="{color: blue}">0.99</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.99</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: red}">0.54</span></td>
+      <td><span style="{color: red}">0.54</span></td>
+    </tr>
+    <tr>
+      <th>SaCCDPOP5_3_17</th>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+    </tr>
+    <tr>
+      <th>SaCCDPOP5_3_326</th>
+      <td><span style="{color: blue}">0.94</span></td>
+      <td><span style="{color: blue}">0.95</span></td>
+      <td><span style="{color: blue}">0.95</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: red}">0.56</span></td>
+      <td><span style="{color: red}">0.56</span></td>
+    </tr>
+    <tr>
+      <th>SaCCDPOP5_3_61</th>
+      <td><span style="{color: blue}">0.99</span></td>
+      <td><span style="{color: blue}">0.97</span></td>
+      <td><span style="{color: blue}">0.95</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: red}">0.54</span></td>
+      <td><span style="{color: red}">0.54</span></td>
+    </tr>
+    <tr>
+      <th>ball_mk4_05</th>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ball_mk4_15</th>
+      <td><span style="{color: red}">-0.00</span></td>
+      <td><span style="{color: red}">0.00</span></td>
+      <td>-</td>
+      <td><span style="{color: red}">-0.00</span></td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td><span style="{color: red}">-0.00</span></td>
+      <td><span style="{color: red}">0.00</span></td>
+      <td><span style="{color: red}">-0.00</span></td>
+    </tr>
+    <tr>
+      <th>color_lab2_4x0</th>
+      <td><span style="{color: red}">0.56</span></td>
+      <td><span style="{color: blue}">0.95</span></td>
+      <td><span style="{color: blue}">0.96</span></td>
+      <td><span style="{color: red}">0.56</span></td>
+      <td><span style="{color: blue}">0.94</span></td>
+      <td><span style="{color: blue}">0.95</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: red}">-0.74</span></td>
+      <td><span style="{color: red}">-0.74</span></td>
+    </tr>
+    <tr>
+      <th>color_lab6b_4x20</th>
+      <td><span style="{color: red}">14.97</span></td>
+      <td><span style="{color: red}">3.76</span></td>
+      <td><span style="{color: red}">3.83</span></td>
+      <td><span style="{color: red}">15.01</span></td>
+      <td><span style="{color: red}">4.20</span></td>
+      <td><span style="{color: red}">3.75</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: red}">1.62</span></td>
+      <td><span style="{color: red}">8813.05</span></td>
+      <td><span style="{color: red}">8813.05</span></td>
+    </tr>
+    <tr>
+      <th>meanvar-orl400_05_e_8</th>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.99</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">0.99</span></td>
+    </tr>
+    <tr>
+      <th>nvs11</th>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+    </tr>
+    <tr>
+      <th>pedigree_ex485</th>
+      <td><span style="{color: blue}">1.03</span></td>
+      <td><span style="{color: blue}">1.03</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.04</span></td>
+      <td><span style="{color: blue}">1.03</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.04</span></td>
+    </tr>
+    <tr>
+      <th>pedigree_ex485_2</th>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+    </tr>
+    <tr>
+      <th>pedigree_sim2000</th>
+      <td><span style="{color: blue}">1.05</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.05</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.05</span></td>
+    </tr>
+    <tr>
+      <th>pedigree_sim400</th>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+    </tr>
+    <tr>
+      <th>pedigree_sp_top4_250</th>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+    </tr>
+    <tr>
+      <th>pedigree_sp_top4_300</th>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+    </tr>
+    <tr>
+      <th>pedigree_sp_top4_350tr</th>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.01</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+    </tr>
+    <tr>
+      <th>pedigree_sp_top5_200</th>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.03</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.03</span></td>
+    </tr>
+    <tr>
+      <th>pedigree_sp_top5_250</th>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.02</span></td>
+    </tr>
+    <tr>
+      <th>watercontamination0202r</th>
+      <td><span style="{color: red}">-5.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: blue}">1.00</span></td>
+      <td><span style="{color: red}">-37.93</span></td>
+      <td><span style="{color: red}">-37.93</span></td>
+    </tr>
+  </tbody>
+</table>
+</BODY> </HTML>

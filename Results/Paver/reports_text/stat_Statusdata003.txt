@@ -1,0 +1,4 @@
+                 SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  baron  gurobi  scip  virt. best  virt. worst
+CCPOPwTCaD5_100        -        -        -        -        -        -    8.0       8     -         8.0            -
+MPCCPOP12_20           -        -        -        -        -        -    8.0       8     -         8.0            -
+MPCCPOP12_30           -        -        -        -        -        -    8.0       8     -         8.0            -

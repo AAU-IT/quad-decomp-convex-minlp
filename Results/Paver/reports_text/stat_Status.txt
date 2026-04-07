@@ -1,0 +1,28 @@
+Category: Status
+Attribute: Fail
+Filter: instance or solve run marked as failed
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  baron  gurobi  scip  virt. best  virt. worst
+count        3        2        2        2        0        2      4       3     0          13            0
+Data: stat_Statusdata000.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: normal termination
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  baron  gurobi  scip  virt. best  virt. worst
+count       25       33       42       28       33       42     45      47    34          53           16
+Data: stat_Statusdata001.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: exceeded some limit
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  baron  gurobi  scip  virt. best  virt. worst
+count       35       27       18       32       27       17     12      10    26          44            6
+Data: stat_Statusdata002.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: error or other problem
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  baron  gurobi  scip  virt. best  virt. worst
+count        0        0        0        0        0        0      3       3     0           3            0
+Data: stat_Statusdata003.txt
+

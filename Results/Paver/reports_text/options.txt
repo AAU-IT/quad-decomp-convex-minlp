@@ -1,0 +1,34 @@
+file                           ['trc/baronALL.trc', 'trc/gurobiALL.trc', 'trc/scipALL.trc', 'trc/SHOThq0ALL.trc', 'trc/SHOThq1ALL.trc', 'trc/SHOThq2ALL.trc', 'trc/SHOTcq0ALL.trc', 'trc/SHOTcq1ALL.trc', 'trc/SHOTcq2ALL.trc']
+setup                          None
+tracefile                      []
+solufile                       ['solu.solu']
+writetext                      reports_text/reportALL/
+writehtml                      reports_html/reportallALL/
+figformat                      png
+zerogaptol                     1e-09
+nocheckinstanceattr            True
+numpts                         1000
+novirt                         False
+refsolver                      []
+nosortsolver                   False
+bw                             False
+ccreltol                       0.001
+ccabstol                       1e-07
+ccfeastol                      2e-06
+ccopttol                       inf
+timeshift                      10.0
+nodeshift                      100
+mintime                        0.005
+failtime                       930.0
+failnodes                      None
+gaptol                         0.00102
+evalgap                        [0.01, 0.1]
+filtertime                     10.0
+filternodes                    None
+timerelimpr                    0.1
+boundrelimpr                   0.1
+ignoredualbounds               None
+eval                           []
+extendedprofiles               False
+instances                      None
+optfileisrunname               True
