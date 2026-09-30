@@ -1,6 +1,6 @@
 # Decomposition-Based Reformulation of Nonseparable Quadratic Expressions in Convex MINLP - Test Instances
 
-In this repository you can find all test instances that were used in the numerical experiments found in XXXXX. The instances include several problems from [MINLPLib](https://www.minlplib.org/instances.html) and newly generated ones to test the decomposition-based reformulations.
+In this repository you can find all test instances that were used in the numerical experiments found in XXXXX. The instances include several problems from [MINLPLib](https://www.minlplib.org/instances.html) and [QPLib](https://qplib.zib.de/), as well as newly generated ones to test the decomposition-based reformulations.
 
 ## Summary of the Generated Test Problems
 There are **eight different types of portfolio optimization problems**. 
