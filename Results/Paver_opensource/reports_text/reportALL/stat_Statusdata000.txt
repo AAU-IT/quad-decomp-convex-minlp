@@ -1,0 +1,18 @@
+                                  SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+CCPOPwTCaD5_300_permuted                -        -      1.0        -        -        -     -         1.0            -
+QPLIB_10006                             -      1.0        -        -        -        -     -         1.0            -
+QPLIB_8845_permuted                   1.0        -        -        -        -        -     -         1.0            -
+QPLIB_8845                            1.0        -        -        -        -        -     -         1.0            -
+SaCCDPOP5_3_17_permuted                 -      1.0        -        -        -        -     -         1.0            -
+du-opt_permuted                         -        -        -        -        -      1.0     -         1.0            -
+pedigree_ex1058_permuted                -        -      1.0        -        -        -     -         1.0            -
+pedigree_ex1058                         -      1.0        -        -        -        -     -         1.0            -
+pedigree_ex485_2_permuted               -      1.0        -        -        -        -     -         1.0            -
+pedigree_ex485_2                        -      1.0        -        -        -        -     -         1.0            -
+pedigree_ex485_permuted                 -      1.0        -        -        -        -     -         1.0            -
+pedigree_sp_top4_250                    -      1.0        -        -        -        -     -         1.0            -
+pedigree_sp_top4_350tr_permuted         -      1.0        -        -        -        -     -         1.0            -
+pedigree_sp_top4_350tr                  -      1.0        -        -        -        -     -         1.0            -
+watercontamination0202r_permuted        -        -      1.0        -        -        -     -         1.0            -
+watercontamination0303r_permuted        -      1.0        -        -        -        -     -         1.0            -
+watercontamination0303r                 -      1.0      1.0        -        -        -     -         1.0            -

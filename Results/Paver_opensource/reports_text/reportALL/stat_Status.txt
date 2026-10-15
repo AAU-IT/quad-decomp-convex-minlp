@@ -1,0 +1,28 @@
+Category: Status
+Attribute: Fail
+Filter: instance or solve run marked as failed
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count        2       11        4        0        0        1     0          17            0
+Data: stat_Statusdata000.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: normal termination
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       54       76       92       61       78      103    77         111           43
+Data: stat_Statusdata001.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: exceeded some limit
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       78       57       41       73       56       31    57          88           22
+Data: stat_Statusdata002.txt
+
+Category: Status
+Attribute: TerminationStatus
+Filter: error or other problem
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count        2        1        0        0        0        0     0           3            0
+Data: stat_Statusdata003.txt
+

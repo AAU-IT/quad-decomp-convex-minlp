@@ -1,0 +1,4 @@
+                         SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+QPLIB_8845_permuted          7.0        -        -        -        -        -     -         7.0            -
+QPLIB_8845                   7.0        -        -        -        -        -     -         7.0            -
+SaCCDPOP5_3_17_permuted        -      7.0        -        -        -        -     -         7.0            -

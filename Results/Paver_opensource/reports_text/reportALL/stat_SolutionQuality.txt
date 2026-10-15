@@ -1,0 +1,229 @@
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail by all solver
+             SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2   scip  virt. best  virt. worst
+count         117.00   117.00   117.00   117.00   117.00   117.00 117.00      117.00       117.00
+arith. mean     0.49     0.31     0.24     0.40     0.26     0.19   0.57        0.10         0.79
+arith. std.     0.76     0.66     0.59     0.74     0.63     0.54   0.85        0.41         0.88
+min             0.00     0.00     0.00     0.00     0.00     0.00   0.00        0.00         0.00
+10.0%           0.00     0.00     0.00     0.00     0.00     0.00   0.00        0.00         0.00
+25.0%           0.00     0.00     0.00     0.00     0.00     0.00   0.00        0.00         0.00
+50.0%           0.01     0.00     0.00     0.00     0.00     0.00   0.00        0.00         0.29
+75.0%           0.75     0.10     0.06     0.29     0.04     0.00   0.84        0.00         2.00
+90.0%           2.00     2.00     0.97     2.00     2.00     0.32   2.00        0.20         2.00
+max             2.00     2.00     2.00     2.00     2.00     2.00   2.00        2.00         2.00
+Data: stat_SolutionQualitydata000.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+             SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count          95.00    95.00    95.00    95.00    95.00    95.00 95.00       95.00        95.00
+arith. mean     0.61     0.38     0.29     0.49     0.33     0.23  0.68        0.13         0.95
+arith. std.     0.80     0.72     0.64     0.80     0.68     0.59  0.89        0.45         0.87
+min             0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+10.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+25.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.01
+50.0%           0.18     0.01     0.00     0.02     0.00     0.00  0.02        0.00         0.84
+75.0%           1.11     0.24     0.18     0.47     0.20     0.01  2.00        0.00         2.00
+90.0%           2.00     2.00     2.00     2.00     2.00     1.15  2.00        0.24         2.00
+max             2.00     2.00     2.00     2.00     2.00     2.00  2.00        2.00         2.00
+Data: stat_SolutionQualitydata001.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs002.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 0.102% and not failed
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       54       66       89       61       79      104    72         110           40
+Data: stat_SolutionQualitydata003.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 1% and not failed
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       59       73       94       73       89      108    74         119           44
+Data: stat_SolutionQualitydata004.txt
+
+Category: Solution Quality
+Attribute: Gap
+Filter: gap <= 10% and not failed
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       68       90      100       91      103      110    84         120           49
+Data: stat_SolutionQualitydata005.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail by all solver and known optimal value
+             SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count          81.00    81.00    81.00    81.00    81.00    81.00 81.00       81.00        81.00
+arith. mean     0.09     0.05     0.07     0.07     0.04     0.06  0.08        0.00         0.24
+arith. std.     0.24     0.18     0.31     0.25     0.12     0.31  0.33        0.01         0.54
+min             0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+10.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+25.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+50.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+75.0%           0.00     0.00     0.00     0.01     0.00     0.00  0.00        0.00         0.09
+90.0%           0.21     0.07     0.03     0.15     0.11     0.01  0.14        0.00         1.01
+max             1.03     0.95     2.00     2.00     0.75     2.00  2.00        0.08         2.00
+Data: stat_SolutionQualitydata006.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count          59.00    59.00    59.00    59.00    59.00    59.00 59.00       59.00        59.00
+arith. mean     0.12     0.06     0.10     0.10     0.05     0.08  0.11        0.00         0.33
+arith. std.     0.28     0.20     0.36     0.29     0.14     0.37  0.38        0.01         0.61
+min             0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+10.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+25.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+50.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.01
+75.0%           0.04     0.01     0.00     0.04     0.01     0.00  0.02        0.00         0.29
+90.0%           0.62     0.09     0.08     0.22     0.13     0.02  0.21        0.00         1.15
+max             1.03     0.95     2.00     2.00     0.75     2.00  2.00        0.08         2.00
+Data: stat_SolutionQualitydata007.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: no fail
+Absolute performance profile: stat_SolutionQualityprofileabs008.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 0.102% of known optimal value and not failed
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       59       63       72       55       70       81    71          84           42
+Data: stat_SolutionQualitydata009.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 1% of known optimal value and not failed
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       69       69       75       69       74       84    76          90           53
+Data: stat_SolutionQualitydata010.txt
+
+Category: Solution Quality
+Attribute: PrimalGap
+Filter: within 10% of known optimal value and not failed
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       73       79       84       78       84       88    84          94           61
+Data: stat_SolutionQualitydata011.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: no fail by all solver and known optimal value
+             SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count          81.00    81.00    81.00    81.00    81.00    81.00 81.00       81.00        81.00
+arith. mean     0.32     0.19     0.14     0.28     0.20     0.09  0.47        0.07         0.58
+arith. std.     0.68     0.53     0.45     0.65     0.56     0.38  0.83        0.32         0.86
+min             0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+10.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+25.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+50.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.02
+75.0%           0.12     0.01     0.00     0.09     0.00     0.00  0.24        0.00         2.00
+90.0%           2.00     0.43     0.23     2.00     0.35     0.20  2.00        0.06         2.00
+max             2.00     2.00     2.00     2.00     2.00     2.00  2.00        2.00         2.00
+Data: stat_SolutionQualitydata012.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: time >= 10.0 by at least one solver and no fail for all solvers and known optimal value
+             SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count          59.00    59.00    59.00    59.00    59.00    59.00 59.00       59.00        59.00
+arith. mean     0.44     0.25     0.19     0.39     0.27     0.13  0.61        0.09         0.77
+arith. std.     0.77     0.61     0.51     0.74     0.65     0.44  0.90        0.37         0.91
+min             0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+10.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.00
+25.0%           0.00     0.00     0.00     0.00     0.00     0.00  0.00        0.00         0.01
+50.0%           0.02     0.00     0.00     0.02     0.00     0.00  0.00        0.00         0.17
+75.0%           0.27     0.02     0.06     0.27     0.01     0.00  2.00        0.00         2.00
+90.0%           2.00     0.99     0.30     2.00     2.00     0.22  2.00        0.21         2.00
+max             2.00     2.00     2.00     2.00     2.00     2.00  2.00        2.00         2.00
+Data: stat_SolutionQualitydata013.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 0.102% and not failed
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       44       58       70       49       64       82    58          85           35
+Data: stat_SolutionQualitydata014.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 1% and not failed
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       52       64       73       57       73       82    64          85           40
+Data: stat_SolutionQualitydata015.txt
+
+Category: Solution Quality
+Attribute: DualGap
+Filter: dual gap <= 10% and not failed
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       66       71       78       73       82       83    64          86           46
+Data: stat_SolutionQualitydata016.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: no fail by all solver
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count      117      117      117      117      117      117   117         117          117
+Data: stat_SolutionQualitydata017.txt
+
+Relative to virt. best :
+        SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. worst
+count       117      117      117      117      117      117   117          117
+better        0        0        0        0        0        0     0            0
+close        81      100       99       90      100      107    95           76
+worse        30       11       12       21       11        4    16           35
+Data: stat_SolutionQualityratio017_virt.best.txt
+
+Category: Solution Quality
+Attribute: PrimalBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       95       95       95       95       95       95    95          95           95
+Data: stat_SolutionQualitydata018.txt
+
+Relative to virt. best :
+        SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. worst
+count        95       95       95       95       95       95    95           95
+better        0        0        0        0        0        0     0            0
+close        59       78       77       68       78       85    73           54
+worse        30       11       12       21       11        4    16           35
+Data: stat_SolutionQualityratio018_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: no fail by all solver
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count      117      117      117      117      117      117   117         117          117
+Data: stat_SolutionQualitydata019.txt
+
+Relative to virt. best :
+        SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. worst
+count       117      117      117      117      117      117   117          117
+better        0        0        0        0        0        0     0            0
+close        83       93       99       90       97      107    76           67
+worse        32       20       14       25       14        4    39           48
+Data: stat_SolutionQualityratio019_virt.best.txt
+
+Category: Solution Quality
+Attribute: DualBound
+Filter: time >= 10.0 by at least one solver and no fail for all solvers
+       SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. best  virt. worst
+count       95       95       95       95       95       95    95          95           95
+Data: stat_SolutionQualitydata020.txt
+
+Relative to virt. best :
+        SHOTcq0  SHOTcq1  SHOTcq2  SHOThq0  SHOThq1  SHOThq2  scip  virt. worst
+count        95       95       95       95       95       95    95           95
+better        0        0        0        0        0        0     0            0
+close        61       71       77       68       75       85    55           46
+worse        32       20       14       25       14        4    38           47
+Data: stat_SolutionQualityratio020_virt.best.txt
+
