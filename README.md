@@ -44,10 +44,10 @@ The table below summarizes all new instances:
 | CCPOPwTCaRL5_165          | MBQCQP | Convex | 330    | 165      | 0        | 168    |
 | CCPOPwTCaRL5_308          | MBQCQP | Convex | 616    | 308      | 0        | 311    |
 | CCPOPwTCaRL5_538          | MBQCQP | Convex | 1076   | 538      | 0        | 541    |
-| RPOPwCaTC5_20             | MBQCQP | Convex | 42     | 20       | 0        | 26     |
-| RPOPwCaTC5_50             | MBQCQP | Convex | 102    | 50       | 0        | 56     |
-| RPOPwCaTC5_100            | MBQCQP | Convex | 202    | 100      | 0        | 106    |
-| RPOPwCaTC5_319            | MBQCQP | Convex | 640    | 319      | 0        | 325    |
+| RPOPwCaTC5_20             | MBQCQP | Convex | 42     | 20       | 0        | 25     |
+| RPOPwCaTC5_50             | MBQCQP | Convex | 102    | 50       | 0        | 55     |
+| RPOPwCaTC5_100            | MBQCQP | Convex | 202    | 100      | 0        | 105    |
+| RPOPwCaTC5_319            | MBQCQP | Convex | 640    | 319      | 0        | 324    |
 | CCPOPwTCRTEaD5_20         | MBQCQP | Convex | 40     | 20       | 0        | 25     |
 | CCPOPwTCRTEaD5_50         | MBQCQP | Convex | 100    | 50       | 0        | 55     |
 | SaCCDPOP5_3_17            | MBNLP  | Convex | 50     | 25       | 0        | 53     |
@@ -63,7 +63,7 @@ The table below summarizes all new instances:
 | MPCCPOP_crypto8_6d_30m    | MBQP   | Convex | 4081   | 2040     | 0        | 4591   |
 | MPCCPOP_crypto8_30d_90m   | MBQP   | Convex | 7505   | 3752     | 0        | 8443   |
 
-Note: all objective values have been scaled by a factor of 10000 for numerical stability.
+Note: all objective values have been scaled by a factor of 100000 for numerical stability.
 
 The table below summarizes all instances from MINLPLib:
 
